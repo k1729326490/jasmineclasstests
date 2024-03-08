@@ -1,6 +1,4 @@
-
-
-const cubeVolume = require('./cubeVolume');
+import { cubeVolume } from '../cubeVolume.js'
 
 describe('cubeVolume', () => {
     it('should calculate volume correctly for height 2 meters', () => {

@@ -1,5 +1,4 @@
 
-
 const fahrenheitToCelsius = require('./temperatureConversion');
 
 describe('fahrenheitToCelsius', () => {
@@ -14,4 +13,4 @@ describe('fahrenheitToCelsius', () => {
     it('should convert room temperature correctly', () => {
         expect(fahrenheitToCelsius(70)).toBeCloseTo(21.11, 2); 
     });
-})
+});

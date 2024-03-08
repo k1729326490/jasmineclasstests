@@ -1,4 +1,4 @@
-const calculateMembershipCost = require('./gymMembership');
+import { calculateMembershipCost } from '../gymMembership.js'
 
 describe('calculateMembershipCost', () => {
     it('should calculate total cost with 0 friends correctly', () => {

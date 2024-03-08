@@ -20,4 +20,4 @@ function calculateMembershipCost(cost, friends) {
     return cost * (1 - discount);
 }
 
-module.exports = calculateMembershipCost;
+export {calculateMembershipCost}

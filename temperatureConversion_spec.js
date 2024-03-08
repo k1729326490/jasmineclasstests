@@ -1,5 +1,5 @@
 
-const fahrenheitToCelsius = require('./temperatureConversion');
+import { fahrenheitToCelsius } from '../temperatureConversion.js'
 
 describe('fahrenheitToCelsius', () => {
     it('should convert boiling temperature correctly', () => {
